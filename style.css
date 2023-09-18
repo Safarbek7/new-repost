@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+}
+span, a {
+    display: inline-block;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+.img {
+    width: 40%;
+}
+.box {
+    padding: 20px 20px;
+    max-width: 1500px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    background-color: rgba(255, 255, 0, 0.13);
+}
+.pik {
+    width: 5%;
+}
+.div {
+    display: flex;
+    align-items: center;
+}
+.bt {
+    border: 1px solid black;
+    background-color: rgba(169, 169, 169, 0.981);
+}
+.pil {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+.btn {
+   margin-top: 10px; 
+   margin-right: 100px;
+}
+.kk {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.181);
+    width: 80%;
+}
+.hul {
+    font-size: 18px;
+}
+.hbir {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.745);
+    margin-left: 7px;
+}
+.rasm {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.mg {
+    width: 23%;
+}
+.het {
+    color: black;
+}
+.hit {
+    color: silver;
+}
+.span {
+    font-size: 22px;
+}
+.sana {
+    display: flex;
+
+}
+.sezon {
+    display: flex;
+    align-items: center;
+}
+.rek {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    row-gap: 20px;
+}
+.uj {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.742);
+}
+.plar {
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 5px;
+}
+.ii {
+    font-size: 25px;
+}
+.ujj {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(30, 143, 255, 0.818);
+}
+.ujjj {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 255, 0, 0.835);
+}
+.hh {
+    font-size: 18px;
+}
+.pk {
+    font-weight: bold;
+    font-size: 18px;
+}
+.imag {
+    width: 17%;
+}
+.strimer {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.strimer1 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.strimer2 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.strimer3 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.strimer4 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.strimer5 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.textarea {
+    margin-top: 15px;
+    width: 70%;
+}
+.mj {
+    width: 20%;
+}
+.hhbir {
+    font-size: 22px;
+}
+.nev {
+    display: flex;
+    align-items: center;
+}
+.oll {
+    color: red;
+    font-size: 45px;
+    margin: auto;
+    position: absolute;
+    left: 45%;
+    bottom: 50%;
+}
+.yutub {
+    position: relative;
+}
+.help {
+    position: relative;
+}
+.ll {
+    position: absolute;
+    bottom: 40%;
+    left: 46%;
+    font-size: 45px;
+    color: red;
+    margin: auto;
+}
+.help {
+    font-size: 10px;
+}
+:hover.ll {
+    color: rgba(0, 0, 0, 0.804);
+}
+:hover.oll {
+    color: rgba(0, 0, 0, 0.804);
+}
+.strim {
+    row-gap: 20px;
+}
+.you {
+    border: 4px solid silver;
+}
+.ban {
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: rgba(169, 169, 169, 0.068);
+    align-items: center;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+.lilar {
+    margin-left: 15px;
+    line-height: 1.5;
+}
+.lilarr {
+    margin-left: 15px;
+    line-height: 1.5;
+}
+.lilarrr {
+    margin-left: 15px;
+    line-height: 1.5;
+}
+.be {
+    font-size: 50px;
+    color: red;
+}
+.fff {
+    font-size: 50px;
+    color: dodgerblue;
+}
+.dd {
+    font-size: 50px;
+    color: rgba(0, 0, 255, 0.618);
+}
+:hover.fff {
+    color: rgba(0, 0, 0, 0.797);
+}
+:hover.be {
+    color: rgba(0, 0, 0, 0.797);
+}
+:hover.dd {
+    color: rgba(0, 0, 0, 0.797);
+}
+@media(max-width:1000px) {
+   .sezon {
+        width: 100%;
+   }
+   .you {
+        width: 100%;
+        flex-wrap: wrap;
+   }
+   .ban {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+   }
+   .box {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+   }
+}
+@media(max-width:850px) {
+    .sezon {
+         width: 100%;
+    }
+    .you {
+         width: 100%;
+         flex-wrap: wrap;
+    }
+    .ban {
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+    }
+    .box {
+         width: 100%;
+         flex-wrap: wrap;
+         display: flex;
+    }
+ }
+ @media(max-width:700px) {
+    .sezon {
+         width: 100%;
+    }
+    .you {
+         width: 100%;
+         flex-wrap: wrap;
+    }
+    .ban {
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+    }
+    .box {
+         width: 100%;
+         flex-wrap: wrap;
+         display: flex;
+    }
+    .iconlar {
+        margin: auto;
+    }
+ }
+ @media(max-width:600px) {
+    .sezon {
+         width: 100%;
+    }
+    .you {
+         width: 100%;
+         flex-wrap: wrap;
+    }
+    .ban {
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+    }
+    .box {
+         width: 100%;
+         flex-wrap: wrap;
+         display: flex;
+    }
+    .iconlar {
+        margin: auto;
+    }
+ }
+ @media(max-width:500px) {
+    .sezon {
+         width: 100%;
+    }
+    .you {
+         width: 100%;
+         flex-wrap: wrap;
+    }
+    .ban {
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+    }
+    .box {
+         width: 100%;
+         flex-wrap: wrap;
+         display: flex;
+    }
+    .iconlar {
+        margin: auto;
+    }
+ }
+ @media(max-width:400px) {
+    .sezon {
+         width: 100%;
+    }
+    .you {
+         width: 100%;
+         flex-wrap: wrap;
+    }
+    .ban {
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+    }
+    .box {
+         width: 100%;
+         flex-wrap: wrap;
+         display: flex;
+    }
+    .iconlar {
+        margin: auto;
+    }
+ }
